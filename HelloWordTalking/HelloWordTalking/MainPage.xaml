@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="HelloWordTalking.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWordTalking"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btHelloWorld" Content="Hello World" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.332,4.987" Height="67" Width="102" Margin="112,109,0,0" Click="btHelloWorld_Click"/>
+
+    </Grid>
+</Page>
